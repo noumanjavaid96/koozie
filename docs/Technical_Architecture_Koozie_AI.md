@@ -115,7 +115,7 @@ graph TD
     Stripe -- Webhook (HTTPS) --> Backend
     Backend -- API Call (HTTPS) --> EmailService[Email Service API]
     EmailService -- SMTP/API --> UserEmail[User's Email]
-    Backend -- API Call (HTTPS) --> SMSWhatsAppService[SMS/WhatsApp API (TBD)]
+    Backend -- API Call (HTTPS) --> SMSWhatsAppService[SMS/WhatsApp API TBD]
     SMSWhatsAppService -- SMS/WhatsApp --> UserPhone[User's Phone]
     Backend -- API Call (HTTPS) --> CRM[CRM API coursecreator360 - TBD]
     CRM -- API Response/Webhook --> Backend
