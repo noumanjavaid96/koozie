@@ -105,9 +105,9 @@ The system can be broken down into the following major components:
 
 ```mermaid
 graph TD
-    User[User via Browser] -- HTTPS --> Frontend[Frontend (Bubble.io UI)]
-    Frontend -- Bubble.io Internal --> Backend[Backend (Bubble.io Workflows & DB)]
-    Backend -- API Call (HTTPS) --> Tavily[Tavily API (for Web Search)]
+    User[User via Browser] -- HTTPS --> Frontend[Frontend Bubble.io UI]
+    Frontend -- Bubble.io Internal --> Backend[Backend Bubble.io Workflows & DB]
+    Backend -- API Call (HTTPS) --> Tavily[Tavily API for Web Search]
     Tavily -- API Response (HTTPS) --> Backend
     Backend -- API Call (HTTPS) --> GeminiLLM[Google Gemini LLM API]
     GeminiLLM -- API Response (HTTPS) --> Backend
@@ -117,7 +117,7 @@ graph TD
     EmailService -- SMTP/API --> UserEmail[User's Email]
     Backend -- API Call (HTTPS) --> SMSWhatsAppService[SMS/WhatsApp API (TBD)]
     SMSWhatsAppService -- SMS/WhatsApp --> UserPhone[User's Phone]
-    Backend -- API Call (HTTPS) --> CRM[CRM API (coursecreator360 - TBD)]
+    Backend -- API Call (HTTPS) --> CRM[CRM API coursecreator360 - TBD]
     CRM -- API Response/Webhook --> Backend
 
     AdminUser[Admin User via Browser] -- HTTPS --> Frontend
