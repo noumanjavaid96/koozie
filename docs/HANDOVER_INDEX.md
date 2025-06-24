@@ -29,9 +29,10 @@ This document serves as an index for all handover materials related to the Koozi
     *   **Description:** Data protection measures, API key management, authentication/authorization in Bubble.io, and notes on regulatory compliance.
 
 *   **Testing & QA Reports**
-    *   **Location:** [./Testing_QA_Reports_Koozie_AI.md](./Testing_QA_Reports_Koozie_AI.md) (Structure/Template)
-    *   **Description:** Structure for documenting unit tests, integration tests, and user acceptance testing (UAT). Actual reports are a work in progress and should be stored in a shared drive.
-    *   **Working Document Location:** *(To be filled in by QA/Project Manager - e.g., Link to Google Drive folder)*
+    *   **Testing Guide & Report Structure:** [./Testing_QA_Reports_Koozie_AI.md](./Testing_QA_Reports_Koozie_AI.md) (Provides a general testing strategy, areas to test, and templates.)
+    *   **Dashboard HTML Based Observations (Sample):** [./Foo_Dashboard_QA_Observations.md](./Foo_Dashboard_QA_Observations.md) (A speculative observation list based on dashboard HTML structure.)
+    *   **Description:** The main document provides a structure for QA. Actual test execution reports are a work in progress and should be stored in a shared drive. The "Foo" report is a one-off sample based on limited data.
+    *   **Working Test Case/Report Location:** *(To be filled in by QA/Project Manager - e.g., Link to Google Drive folder/Test Management Tool)*
 
 *   **Deployment & Installation Guide**
     *   **Location:** [./Deployment_Guide_Koozie_AI.md](./Deployment_Guide_Koozie_AI.md)
