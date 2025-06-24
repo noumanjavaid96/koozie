@@ -2,6 +2,8 @@
 
 This document serves as an index for all handover materials related to the Koozie AI project.
 
+**For a summary of placeholders requiring input, please see: [./PLACEHOLDER_SUMMARY.md](./PLACEHOLDER_SUMMARY.md)**
+
 ## 1. Technical Documentation
 
 *   **Software Requirement Specification (SRS)**
